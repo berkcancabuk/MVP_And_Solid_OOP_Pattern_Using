@@ -1,0 +1,2 @@
+/Users/berkcancabuk/Documents/GitHub/Test/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache
+/Users/berkcancabuk/Documents/GitHub/Test/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache
