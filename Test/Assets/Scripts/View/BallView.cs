@@ -6,8 +6,7 @@ namespace View
     {
         private Vector3 _position;
         private IBallView _ballViewImplementation;
-
-        public event Action Triggered;
+        public event Action Triggered = null;
 
         public void Disable()
         {
@@ -19,7 +18,7 @@ namespace View
         {
             if (other.CompareTag("Surface"))
             {
-                if (Triggered != null) Triggered.Invoke();
+                Triggered.Invoke();
             }
         }
     }

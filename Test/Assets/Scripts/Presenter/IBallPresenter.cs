@@ -1,5 +1,4 @@
 using Model;
-using UnityEngine.PlayerLoop;
 using View;
 
 namespace Presenter

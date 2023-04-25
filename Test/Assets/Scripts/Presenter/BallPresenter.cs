@@ -1,4 +1,3 @@
-using System;
 using Model;
 using UnityEngine;
 using View;
@@ -8,13 +7,7 @@ namespace Presenter
     public class BallPresenter: MonoBehaviour, IBallPresenter
     {
         private IFallingItem _fallingItem;
-
         private IBallView _view;
-        public BallPresenter()
-        {
-            
-        }
-        
         public void ShouldDestroy(bool isActive)
         {
             if (!isActive)
